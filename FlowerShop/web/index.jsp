@@ -14,19 +14,18 @@
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <link rel="stylesheet" href="%PUBLIC_URL%/reset.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link href="NavBar.css" type="text/css" rel="stylesheet" /><!--
--->     <link href="HeaderImg.css" type="text/css" rel="stylesheet" /><!--
--->     <link href="TopHeader.css" type="text/css" rel="stylesheet" /><!--
--->     <link href="App.css" type="text/css" rel="stylesheet" /><!--
--->     <link href="BottomFooter.css" type="text/css" rel="stylesheet" /><!--<!--
--->     <link href="TopFooter.css" type="text/css" rel="stylesheet" /><!--
+        <link href="./Style/NavBar.css" type="text/css" rel="stylesheet" /><!--
+-->     <link href="./Style/HeaderImg.css" type="text/css" rel="stylesheet" /><!--
+-->     <link href="./Style/TopHeader.css" type="text/css" rel="stylesheet" /><!--
+-->     <link href="./Style/App.css" type="text/css" rel="stylesheet" /><!--
+-->     <link href="./Style/BottomFooter.css" type="text/css" rel="stylesheet" /><!--<!--
+-->     <link href="./Style/TopFooter.css" type="text/css" rel="stylesheet" /><!--
 
 -->
 
 
     </head>
-    <body>
-
+    <body>zdfgwwsws
         <div class="App">
                 <div class="TopHeader">
                     <div class="TopHeader-inner">
@@ -37,7 +36,7 @@
                          <i class="fab fa-linkedin-in" > </i>
                          <i class="fab fa-instagram" > </i>
                         <div class="TopHeader-login"></i>
-                               <i class="fas fa-user"> </i>Đăng nhậpaaaa
+                               <i class="fas fa-user"> </i>Đăng nhập
                                <i class="fas fa-user-plus"></i>Đăng kí
                         </div>
                     </div>
