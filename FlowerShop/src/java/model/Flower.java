@@ -10,10 +10,20 @@ package model;
  * @author Tiny
  */
 public class Flower {
+    public Flower(int fID, String fName, long price, String category, String img) {
+        this.fID = fID;
+        this.fName = fName;
+        this.price = price;
+        this.category = category;
+        this.img = img;
+    }
     int fID;
     String fName;
     long price;
     String category;
+    String img ;
+    public Flower() {
+    }
 
     public Flower(int fID, String fName, long price, String category) {
         this.fID = fID;
@@ -21,7 +31,13 @@ public class Flower {
         this.price = price;
         this.category = category;
     }
+    public String getImg() {
+        return img;
+    }
 
+    public void setImg(String img) {
+        this.img = img;
+    }
     public int getfID() {
         return fID;
     }

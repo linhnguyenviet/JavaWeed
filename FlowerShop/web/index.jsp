@@ -22,10 +22,17 @@
     </head>
     <body>
         <div class="App">
-            <%@ include file="/Structure/header.jsp" %>
-            YOUR FUNCTION
+            <%@ include file="/Structure/header.jsp" %> 
+                   WELCOME LOGIN 
+            <a
+                href="<%=request.getContextPath()%>/LogoutServlet">Logout
+            </a>
+            
+            <%  
+            String a = ( String ) request.getAttribute("sessCustomer");
+            out.write(a);
+            %>
             <%@ include file="/Structure/footer.jsp" %>
-
         </div>
         
     </body>

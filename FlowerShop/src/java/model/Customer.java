@@ -18,6 +18,9 @@ public class Customer {
     String address;
     String place;
 
+    public Customer() {
+    }
+
     public Customer(int cID, String cName, String email, String password, String phone, String address, String place) {
         this.cID = cID;
         this.cName = cName;
